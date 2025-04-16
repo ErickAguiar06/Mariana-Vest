@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="carrinho-container">
+    <h2 class="carrinho-titulo">Carrinho de compras</h2>
+    <table class="tabela-carrinho">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Produto</th>
+          <th>Descrição</th>
+          <th>Foto</th>
+          <th>Quantidade</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="corpo-tabela"></tbody>
+    </table>
+
+    <div class="carrinho-total">
+      <h3 id="total-geral"></h3>
+      <button onclick="window.location.href='index.html'">Voltar</button>
+      <button>Enviar Pedido</button>
+    </div>
+  </main>
+
+  <script src="carrinho.js"></script>
+</body>
+</html>
