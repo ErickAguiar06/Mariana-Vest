@@ -46,5 +46,10 @@ function formatarPreco(valor) {
     location.reload();
   }
   
-  renderCarrinho();
+  function enviarPedido() {
+    localStorage.removeItem('carrinho');
+    alert('Pedido enviado com sucesso!');
+    location.reload();
+  }
   
+renderCarrinho();
